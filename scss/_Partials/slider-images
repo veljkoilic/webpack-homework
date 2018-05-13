@@ -1,0 +1,12 @@
+.your-class{
+  margin-top: 100px;
+  div{
+    img{
+      border: 10px solid #fff;
+      padding: 0;
+      margin: 0 auto 150px auto;
+      width: 450px;
+
+    }
+  }
+}

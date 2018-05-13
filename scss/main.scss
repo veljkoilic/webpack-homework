@@ -1,0 +1,38 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-color: $black;
+	overflow-x: hidden;
+	font-family: 'Archivo Black', sans-serif;
+	color: white;
+	// background-image: url('/assets/images/corgi.jpg');
+	main{
+		text-align: center;
+		opacity: 0;
+		p{
+			margin: 0 auto;
+			width: 500px;
+		}
+
+
+	}
+	.animated{
+		animation-name: slideIn;
+		animation-duration: 1.5s;
+		animation-fill-mode: forwards;
+
+	}
+}
+//ANIMATION FOR MAIN TEXT
+@keyframes slideIn {
+	from{
+		opacity: 0;
+		margin-left: 1500px;
+	}
+	to{
+		opacity: 1;
+		margin-left: 0;
+
+	}
+
+}
